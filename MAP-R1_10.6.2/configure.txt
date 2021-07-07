@@ -1,0 +1,9 @@
+WTS_VERSION:10.6.1 
+PROG_NAME:EasyMesh_R1_ECN 
+PKG_NAME:Wi-Fi_Test_Sutie 
+WTS_CORE_ISS:wts_core_package_10.6.0_base_MAP.iss 
+WTS_SCRIPT_ISS:wts_MAP_package.iss 
+REGEN_APPID:true 
+LICENCE_YEAR:2019 
+BUILD_NUMBER:30 
+BUILD_ID:30 

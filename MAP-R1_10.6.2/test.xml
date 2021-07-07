@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application AppID="3077030" CID="WFA60738" Time="2015-06-02T05:41:05Z">
+<DUTInfo>
+	<Name>SGH-E774</Name>
+	<Vendor>Samsung Electronics</Vendor>
+	<Driver>001</Driver> 
+	<Model>SGH-E774</Model>
+	<SigmaSupport>1</SigmaSupport>
+	<ASDSupport>1</ASDSupport>
+	<ASDCategory>0</ASDCategory>
+	<Contact>ja0123.kim@samsung.com</Contact>
+	<Band>ABGN</Band>
+</DUTInfo>
+<Programs>
+    <Program Name='N'>
+        <Capabilities>
+            <DUTCategory>C1</DUTCategory>
+            <DUTType>WPA2-Enterprise</DUTType>
+            <TLS>1</TLS>
+            <TTLS>1</TTLS>
+            <PEAP0>1</PEAP0>
+            <PEAP1>1</PEAP1>
+            <FAST>1</FAST>
+            <SIM>1</SIM>
+            <AKA>1</AKA>
+            <AKA_PRIME>1</AKA_PRIME>
+            <Support_11h>1</Support_11h>
+            <Support_11d>0</Support_11d>
+            <PreAuth>0</PreAuth>
+            <WEP>1</WEP>
+            <SupportedChannelWidth>40</SupportedChannelWidth>
+            <Streams>2</Streams>
+            <Greenfield>0</Greenfield>
+            <RIFS_TX>1</RIFS_TX>
+            <SGI20>1</SGI20>
+            <SGI40>1</SGI40>
+            <Coexistence_2040>0</Coexistence_2040>
+            <STBC_RX>1</STBC_RX>
+            <STBC_TX>1</STBC_TX>
+            <OBSS>1</OBSS>
+            <AMPDU_TX>1</AMPDU_TX>
+            <AP_Concurrent>0</AP_Concurrent>
+            <MCS32>0</MCS32>
+            <STAUT_PM>1</STAUT_PM>
+            <Open_mode>0</Open_mode>
+        </Capabilities>
+    </Program>
+</Programs>
+</Application>

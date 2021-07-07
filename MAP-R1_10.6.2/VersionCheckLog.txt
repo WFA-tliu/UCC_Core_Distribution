@@ -1,0 +1,12 @@
+Tue, 03 Sep 2019 17:19:47 INFO     11n
+Tue, 03 Sep 2019 17:19:47 INFO     P2P
+Tue, 03 Sep 2019 17:19:47 INFO     WFD
+Tue, 03 Sep 2019 17:19:47 INFO     eNPD-TM
+Tue, 03 Sep 2019 17:19:47 INFO     eNPD-IoTLP
+Tue, 03 Sep 2019 17:19:47 INFO     Post-installation WTS version info update completed
+Mon, 05 Jul 2021 11:47:37 INFO     11n
+Mon, 05 Jul 2021 11:47:37 INFO     P2P
+Mon, 05 Jul 2021 11:47:37 INFO     WFD
+Mon, 05 Jul 2021 11:47:37 INFO     eNPD-TM
+Mon, 05 Jul 2021 11:47:37 INFO     eNPD-IoTLP
+Mon, 05 Jul 2021 11:47:37 INFO     Post-installation WTS version info update completed

@@ -1,0 +1,39 @@
+<conf=Batchformat.xml,format=tbqual>
+
+#LOC-5.2.2.2_HT20_2G!BRCM_STAUT!!RalinkAc!RalinkAc!
+#LOC-5.2.2.2_HT20_2G!BRCM_STAUT!!RealtekAc!RealtekAc!
+MBO-4.2.1!REAL_APUT!ap1mbo!3!
+
+#*
+<for $DUT=(BRCM_STAUT,RAL_STAUT)>
+LOC-5.2.2.2_VHT80!$DUT!!RealtekAc!RealtekAc!
+</for>
+
+<for $AP=(RealtekAc,RalinkAc)>
+LOC-5.2.2.3_HT20_2G!BRCM_STAUT!!$AP!$AP!
+</for>
+#*
+
+
+
+
+#*
+#Examples
+#LOC-5.2.5!INTEL_LOC_STAUT!!ap1loc,ap2loc!ap1loc!2!
+#LOC-5.2.6!INTEL_LOC_STAUT!!ap1loc,ap2loc,ap3loc!ap1loc!2!
+
+#Run a list of test cases with one DUT with fixed testbed devices before changing the DUT
+#Run a list of test cases with one DUT with fixed testbed devices before changing the DUT
+<for $DUT=(INTEL_LOC_STAUT,QLCM_LOC_STAUT,REALTK_LOC_STAUT)>
+LOC-5.2.1!$DUT!!ap1loc!ap1loc!
+LOC-5.2.5!$DUT!!ap1loc,ap2loc!ap1loc!2!
+LOC-5.2.6!$DUT!!ap1loc,ap2loc,ap3loc!ap1loc!2!
+</for>
+
+#Run all combinations of DUT, testbed devices for one or more test cases
+<for $DUT=(INTEL_LOC_STAUT,QLCM_LOC_STAUT,REALTK_LOC_STAUT)>
+<for $AP=(ap1loc,ap2loc,ap3loc)>
+LOC-5.2.1!$DUT!!$AP!$AP!
+</for>
+</for>
+#*
